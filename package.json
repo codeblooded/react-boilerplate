@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "./node_modules/.bin/webpack",
+    "start": "./node_modules/.bin/webpack-dev-server --hot --open"
+  },
+  "dependencies": {
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.9",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "jest": "^22.4.0",
+    "node-sass": "^4.7.2",
+    "normalize.css": "^8.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.2",
+    "webpack": "^3.11.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^2.11.1"
+  }
+}
